@@ -60,7 +60,7 @@ Delay for 1 second `sleep 1`
 
 ```bash
 #basic case
-if ["foo" = "foo"];
+if [ "foo" = "foo" ];
   then
     echo "these are equal"
 fi
@@ -72,7 +72,7 @@ if (($COUNT < 10))
 fi
 
 # Use square-brackets when working with strings
-if [[$VARIABLE = "string"]]
+if [[ $VARIABLE = "string" ]]
   then
     echo "Strings are equal"
 fi
